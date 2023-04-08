@@ -9,4 +9,13 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "simrat39/inlay-hints.nvim",
+    config = function()
+      require("inlay-hints").setup()
+    end,
+  },
+  {
+    "mg979/vim-visual-multi",
+  }
 }
